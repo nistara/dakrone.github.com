@@ -7,9 +7,10 @@ body {
     margin: 0px auto;
     padding: 1em;
     color: #000;
-    font-family: "Open Sans", "Bitstream Vera Sans", "Verdana", sans-serif;
-    line-height: 1.4em;
-    font-size: 90%;
+    /* font-family: "Open Sans", "Bitstream Vera Sans", "Verdana", sans-serif; */
+    font-family: "Lucida Sans";
+    line-height: 1.5em;
+    font-size: 100%;
 }
 
 code {
@@ -52,13 +53,14 @@ blockquote {
 }
 
 a {
-    color: #139;
-    text-decoration: underline;
+    color: #914415;
+    text-decoration: none;
     padding: 1px;
 }
 
 a:hover {
-    color: #900;
+    /* color: #900; */
+    text-decoration: bold;
 }
 
 /*
@@ -96,6 +98,10 @@ div.title {
     color: #fff;
     padding: .75em 1em;
     letter-spacing: .1em;
+}
+
+h1.title{
+    color: white
 }
 
 h1 {
